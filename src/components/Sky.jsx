@@ -1,5 +1,5 @@
 import React from 'react';
-import { skyAndGroundWidht } from '../utils/constants';
+import { skyAndGroundWidth } from '../utils/constants';
 
 const Sky = () => {
     const skyStyle = { fill: '#30abef' };
@@ -8,9 +8,9 @@ const Sky = () => {
     return (
         <rect
          style={skyStyle}
-         x={skyAndGroundWidht/-2}
+         x={skyAndGroundWidth/-2}
          y={100 - gameHeight}
-         width={skyAndGroundWidht}
+         width={skyAndGroundWidth}
          height={gameHeight}
         />
     );

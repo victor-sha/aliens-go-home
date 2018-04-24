@@ -1,1 +1,1 @@
-export const skyAndGroundWidht = 5000;
+export const skyAndGroundWidth = 5000;
